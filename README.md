@@ -18,6 +18,9 @@ dev_dependencies:
 
 Voir cet article pour l'écriture des modèles : [https://medium.flutterdevs.com/automatic-generate-json-serializable-in-flutter-4c9d2d23ed88](https://medium.flutterdevs.com/automatic-generate-json-serializable-in-flutter-4c9d2d23ed88)
 
+lancer cette commande pour générer les les modèles, comme indiqué dans le lien
+>flutter packages pub run build_runner build --delete-conflicting-outputs
+
 Tous ces pacquets, sauf [dio](https://pub.dev/packages/dio) servira à la génération des modèles.
 
 Il est possible d'écrire les modèles en utilisant aucun de ces packets. Voir un example dans le Readme du packet [freezed](https://pub.dev/packages/freezed)
