@@ -5,7 +5,7 @@ A new Flutter project.
 ## Les differents packets
 dependencies:
 
-    - dio: ^4.0.6
+    - dio: ^5.0.0
     - freezed_annotation: ^2.0.3
     - json_annotation: ^4.6.0
 
